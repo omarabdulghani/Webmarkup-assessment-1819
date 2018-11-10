@@ -1,0 +1,3 @@
+student name : Omar Abdulghani
+student number : 628674
+student class : 1B
