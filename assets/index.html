@@ -3,12 +3,21 @@
 
     <!-- Head [SEO bots and webbrowsers] -->
         <head>
-                <meta charset="UTF-8"> 
-                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-			    <meta name="viewport" content="width=device-width,initial-scale=1">
+                <meta charset="UTF-8">
+                <meta http-equiv="x-ua-compatible" content="ie=edge">
+	        	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=0" />
                 <meta name="description" content="entertainment">
                 <meta name="author" content="Omar">
                 <meta name="keywords" content="console games, chess, boardgames, play, gaming, monopoly, fun, arcade ">
+                <meta name="msapplication-TileColor" content="#da532c">
+                <meta name="theme-color" content="#ffffff">
+                <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+		        <link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon.png">
+		        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+		        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+		        <link rel="manifest" href="/site.webmanifest">
+		        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"> 
+
                 <link rel="stylesheet" href="css/style.css">
                 <title>Home</title>
 
@@ -23,52 +32,59 @@
 		<!-- For image -->
             <img src='img/background.jpeg' id="iv">
             <section>
-                <article>
-                    <header>
-                        <table id="t">
-                            <tr>
-                                <td>
-                                    <h1>
-                                        <strong>
-                                            COMPANY NAME
-                                        </strong>
-                                    </h1>
-                                </td>
-                            </tr>
-                        </table>
-                    </header>
-                    <table id="t1">
-                        <tr>
-                            <td>
-                                <p class="l">p</p>
-                                <p class="l">b</p>
-                                <p class="l">c</p>
-                            </td>
-                        </tr>
-                    </table>
+             <article>
+                <header id="t">
+					<h1>
+						<strong>
+							COMPANY NAME
+						</strong>
+					</h1>
+				</header>
+                    
+                <nav>
+					<button id="t1">
+						<span class="l"></span>
+						<span class="l"></span>
+						<span class="l"></span>
+                    </button>
+                    
                         <!-- Horizontal List -->
                         <nav>
-                                <ul>
-                                    
-                                    <li><a href="">PRODUCTS</a></li>
-                                    <li><a href="">BLOG</a></li>
-                                    <li><a href="">CONTACT</a></li>
+                                <ul>   
+                                <li><a href="">PRODUCTS</a></li>
+                                <li><a href="">BLOG</a></li>
+                                <li><a href="">CONTACT</a></li>
                                 </ul>
                         </nav>
-                        <h2>WE ARE ENTERTAINMENT</h2>
-				<img id="a" src="img/product3.jpg" alt="no image" title="background">
-				<h2 class="hide-mobile">MOBILE</h2>
-				<h2 id="g" class="hide-mobile">GAMES</h2>
-				<img id="b" src="img/product8.jpg" alt="no image" title="Mobile games">
-				<h2 class="hide-mobile">BOARD</h2>
-				<h2 id="g1" class="hide-mobile">GAMES</h2>
-				<img id="c" src="img/product6.jpg" alt="no image" title="Board games">
-				<h2 class="hide-mob">CONSOLE</h2>
-				<h2 id="g2">GAMES</h2>
-				<img id="d" src="img/product9.jpg" alt="no image" title="Console games">
 
+                        <aside class="as">
+                            <article class="art" id="art1">
+                                <h2 id="g4">WE ARE</h2>
+                                <h2 id="g3">ENTERTAINMENT</h2>
+                                <aside id="a"></aside>
+                            </article>
+            
+                            <article class="art" id="art2">
+                                <h2 class="hide-mobile">MOBILE</h2>
+                                <h2 id="g" class="hide-mobile">GAMES</h2>
+                                <aside id="b"></aside>
+                            </article>
+        
+                            <article class="art" id="art3">
+                                <h2 class="hide-mobile">BOARD</h2>
+                                <h2 id="g1" class="hide-mobile">GAMES</h2>
+                                <aside id="c"></aside>
+                            </article>
+        
+                            <article class="art" id="art4">
+                                <h2 class="hide-mob">CONSOLE</h2>
+                                <h2 class="hide-mob" id="g2">GAMES</h2>
+                                <aside id="d"></aside>
+                            </article>
+
+        </aside>
         <footer>
-        &copy; 2018 - Omar Abdulghani - Inholland
+            <p>&copy; 2018 - Omar Abdulghani - Inholland</p>
         </footer>
 
                         </article>
