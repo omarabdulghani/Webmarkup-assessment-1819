@@ -1,3 +1,5 @@
+/* Reseting browser styles */
+
 * { 
     position: device-fixed;
     margin: 0;
@@ -164,7 +166,7 @@ span {
     background-color: #fff;
 }
 
-/*media queries for responsive*/
+/*media queries */
 
 /* Tablet Layout */
 
