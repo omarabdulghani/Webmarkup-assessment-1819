@@ -1,0 +1,207 @@
+/* Reseting browser styles */
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 960px;
+    margin: 0 auto;
+    max-width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    max-height: 100%;
+    z-index: 6;
+    background: #fff;
+}
+
+#iv {
+    position: absolute;
+    z-index: 5;
+    left: 50%; transform: translate(-50%,0); 
+}
+
+img {
+    height: 1185px;
+}
+
+/* External Font */
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/SansationLight.woff);
+}
+
+body {
+    margin:0 auto;
+    font-family:'Arial','Times New Roman', Times, serif;
+    display: block;
+}
+
+fieldset {
+    background: #fff;
+    padding: 10px;
+    font-family:'Arial','Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+label {
+    color: #BCBABA;
+    font-family:'Arial','Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 10px;
+}
+
+select {
+    float: right;
+    width: 50%;
+    font-family:'Arial','Times New Roman', Times, serif;
+    font-size: 28px;
+    border-width: 2px; 
+    color: #6C6A6A
+}
+
+#sub {
+    background: #00bfff;
+    color: #fff;
+}
+
+#p {
+    color: gray; 
+    font-size: 40px;
+    padding:20px;
+}
+
+input, textarea {
+    border: transparent;
+    padding: 10px;
+    font-family:'Arial','Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+::placeholder {
+    color: #BCBABA
+}
+
+form {
+    width:90%; 
+    margin: 0 auto; 
+    text-align: left; 
+}
+
+#sub {
+    text-align: center;
+}
+
+
+nav {
+    text-align: center;
+    background: #646464;
+    padding: 15px 0;
+    border: 1px solid #fff;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+h1 {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: myFirstFont;
+    font-weight: bold;
+    color: #fff;
+    font-size: 75px;
+}
+
+h2 {
+    font-weight: normal;
+    font-style: normal;
+    color:#fff;
+    padding: 20px 0;
+    font-size: 70px;
+    margin:0 auto;
+    max-width: 500px;
+    text-align: center
+}
+
+footer p {
+    background-color:#242622;
+    margin: 0px; 
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+#art1 {
+    text-align: center;
+    background: #00bfff; 
+}
+
+#art2 {
+    text-align: left;
+    background-color: #F2F0F0
+}
+
+#art3 {
+    text-align: center;
+    color: #fff;
+    background-color:#00bfff; 
+    margin-bottom: 40px;
+}
+
+.l {
+    font-size:5px;
+}
+
+#t {
+    background: url("../img/companylogoBG.jpg") no-repeat;
+    background-position: center; 
+    margin: 0px;  
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+#t1 {
+    background-position: center; 
+    margin: 0px; 
+    padding: 0px; 
+    max-width:100%;
+    text-align: center;
+    display: block;
+    margin-left: 20px;
+    background: transparent;
+    border: 0px
+}
+
+#t1,#u1 {
+    display: none;
+}
+
+span {
+    width: 40px;
+    height: 10px;
+    margin: 3px 0;
+    display: block;
+    background-color: #fff;
+}

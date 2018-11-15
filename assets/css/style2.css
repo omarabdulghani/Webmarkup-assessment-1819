@@ -264,3 +264,164 @@ span {
 .as {
     background: #fff;
 }
+                                                            /* media queries */
+
+                                                            
+/* PC settings */
+@media only screen and (min-width: 960px) {
+
+    #art2::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    #art3::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    #art4::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    #art5::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    #art5 {
+        margin-bottom: 20px;
+    }
+    
+    #art1 {
+        margin-bottom: 20px;
+    }    
+}
+
+/* Tablet Layout */
+@media only screen and (min-width: 360px) and (max-width: 959px) {
+
+    #art1,#iv,#head1 {
+        display: none;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    section {
+        margin-bottom: 0;
+        background: #fff;
+    }
+
+    .art {
+        background-color: #F2F0F0;
+    }
+
+    #t1,#u {
+        display: none;
+    }
+
+    #u1 {
+        display: block;
+    }
+
+    #a {
+        width: 48.5%;
+        border:5px solid #fff;
+        float: left;
+        display: block;
+        height: 200px;
+    }
+
+    #b {
+        width: 48.6%;
+        border:5px solid #fff;
+        float: left;
+        display: block;
+        height: 200px;
+    }
+
+    #c {
+        width: 48.5%;
+        border:5px solid #fff;
+        float: left;
+        display: block;
+        height: 200px;
+    }
+
+    #d {
+        width: 48.6%;
+        border:5px solid #fff;
+        float: left;
+        display: block;
+        height: 200px;
+    }
+    #e {
+        width: 48.5%;
+        border:5px solid #fff;
+        float: left;
+        display: block;
+        height: 200px;
+    }
+
+    #f {
+        width: 48.6%;
+        border:5px solid #fff;
+        float: left;
+        display: block;
+        height: 200px;
+    }
+    #g {
+        width: 48.5%;
+        border:5px solid #fff;
+        float: left;
+        display: block;
+        height: 200px;
+    }
+
+    #h {
+        width: 48.6%;
+        border:5px solid #fff;
+        float: left;
+        display: block;
+        height: 200px;
+    }
+    #i {
+        width: 48.5%;
+        border:5px solid #fff;
+        float: left;
+        display: block;
+        height: 200px;
+    }
+
+    #j {
+        width: 48.6%;
+        border:5px solid #fff;
+        float: left;
+        display: block;
+        height: 200px;
+    }
+    #k {
+        width: 48.5%;
+        border:5px solid #fff;
+        float: left;
+        display: block;
+        height: 200px;
+    }
+
+    #l {
+        width: 48.6%;
+        border:5px solid #fff;
+        float: left;
+        display: block;
+        height: 200px;
+    }
+
+}
