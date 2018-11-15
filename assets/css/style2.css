@@ -425,3 +425,61 @@ span {
     }
 
 }
+
+/* Mobile Layout */
+@media screen and (max-width: 359px) {
+
+    #u1,#u,#iv,#head {
+        display: none;
+    }
+
+    #head1 {
+        display: block;
+    }
+
+    body {
+        width: 100%;
+        height: 100%
+    }
+
+    #p {
+        display: none;
+    }
+
+    header h1 {
+        color: #fff;
+        font-size: 45px;
+        font-weight: bold;
+    }
+    
+    h2 {
+        font-size: 30px;
+        background-color: #00bfff;
+    }
+    
+    #t1 {
+        display: block;
+        margin-left: 20px;
+    }
+    
+    nav ul {
+        display: none;
+    }
+    
+    #a,#b,#c,#d,#e,#f,#g,#h,#i,#j,#k,#l {
+        border: 20px solid #fff;
+        display: block;
+        height: 180px;
+        width: 90%
+    }
+    
+    #art1,#art2 {
+        background:#fff;
+        display:block;
+    }
+    
+    footer p {
+        font-size: 15px;
+    }
+}
+    

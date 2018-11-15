@@ -205,3 +205,47 @@ span {
     display: block;
     background-color: #fff;
 }
+
+                                                    /* media queries */
+/* Tablet Layout */
+@media screen and (min-width: 360px) and (max-width: 959px) {
+
+    #art1,#p,#iv {
+        display: none;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    section {
+        margin-bottom: 0;
+        background: #fff;  
+    }
+    
+    select {
+        float:left; 
+        width: 97%; 
+        margin-top:13px;
+        margin-left:10px; 
+        margin-bottom:10px;
+    }
+
+    .art {
+        background-color: #F2F0F0;
+    }
+
+    #t1,#u {
+        display: none;
+    }
+
+    #u1 {
+        display: block;
+    }
+
+    form {
+        margin-top: 70px;
+    }
+}
+                                            /* Mobile Layout */
