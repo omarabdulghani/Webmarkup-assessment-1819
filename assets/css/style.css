@@ -18,8 +18,10 @@
 }
 	#iv {
         position: absolute;
-        left: 50%; transform: translate(-50%,0);
         z-index: 5;
+        left: 0.05%;
+        right: 0.05%;
+        width: 100%;
 	}
 
 /* External Font */
@@ -186,7 +188,7 @@ span {
     #b {
         float: right;
         width: 48.5%;
-        border:3px solid #fff;
+        border:5px solid #fff;
         background-size: 100% 100%;
         object-fit: contain;
     }
@@ -248,7 +250,7 @@ span {
         display: none;
     }
 
-    .hide-mobile, .hide-mob {
+    .hide-mobile, .hide-mob, #iv {
         display: none;
     }
 
