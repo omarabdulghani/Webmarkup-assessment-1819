@@ -7,7 +7,7 @@
  }
 
     section {
-		width: 960px;
+	width: 960px;
     margin: 0 auto;
     max-width: 100%;
     position: absolute;
@@ -17,11 +17,11 @@
     z-index: 6
 }
 	#iv {
-        position: absolute;
-        z-index: 5;
-        left: 0.05%;
-        right: 0.05%;
-        width: 100%;
+    position: absolute;
+    z-index: 5;
+    left: 0.05%;
+    right: 0.05%;
+    width: 100%;
 	}
 
 /* External Font */

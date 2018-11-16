@@ -19,7 +19,9 @@ section {
 #iv {
     position: absolute;
     z-index: 5;
-    left: 50%; transform: translate(-50%,0); 
+    left: 0.05%;
+    right: 0.05%;
+    width: 100%;
 }
 
 img {
@@ -249,3 +251,108 @@ span {
     }
 }
                                             /* Mobile Layout */
+
+@media screen and (max-width: 359px) {
+
+    #u1,#u,#iv,#p {
+        display: none;
+    }
+
+    body {
+        width: 100%;
+        height: 100%
+    }
+
+    section {
+        margin: 0 auto;
+        margin-bottom: 0;
+        background: #fff;
+        padding: 0;
+        margin: 0;
+    }
+    
+    form {
+        margin-top: 30px;
+        width: 80%;
+        font-size: 30px;
+        display: block;
+        margin-bottom: 50px
+    }
+
+    select {
+        float:left; 
+        width: 97%; 
+        margin-bottom:10px;
+        font-size:12px;
+    }
+    
+    header h1 {
+        color: #fff;
+        font-size: 45px;
+        font-weight: bold;
+    }
+    
+    h2 {
+        font-size: 30px;
+        background-color: #00bfff;
+    }
+    
+    #t1 {
+        display: block;
+        margin-left: 20px;
+    }
+    
+    nav ul {
+        display: none;
+    }
+
+    #art1,#art2 {
+        background:#fff;
+        display:block;
+    }
+    
+    #art3 {
+        display: block;
+    }
+    
+    footer p {
+        font-size: 15px;
+    }
+
+    input {
+        width: 80%;
+        font-size: 12px;
+        height: 1px;
+        margin-bottom: 15px;
+        padding-left: 0;
+        display: block;
+    }
+
+    textarea,label {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    textarea {
+        width: 80%;
+        height: 70px;
+        padding-top: 5px;
+    }
+    
+    fieldset {
+        padding: 1px;
+        padding-left: 10px;
+    }
+
+    #f1, #f2 {
+        height: 22px;
+    }
+
+    #sub {
+        font-size: 30px;
+        height: 50px;
+        margin-left: 30px;
+        margin-bottom: -30px;
+    }     
+}
+                                                    
